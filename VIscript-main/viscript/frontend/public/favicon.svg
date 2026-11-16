@@ -1,0 +1,39 @@
+<svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="v-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#06b6d4" />
+      <stop offset="50%" stopColor="#3b82f6" />
+      <stop offset="100%" stopColor="#8b5cf6" />
+    </linearGradient>
+  </defs>
+  <g>
+    <!-- Document Backdrop with White Fill -->
+    <path d="M50 15 H98 C104.627 15 110 20.373 110 27 V85 C110 91.627 104.627 97 98 97 H75" fill="#ffffff" stroke="url(#v-grad)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Document Lines -->
+    <line x1="75" y1="35" x2="95" y2="35" stroke="url(#v-grad)" stroke-width="8" stroke-linecap="round" />
+    <line x1="75" y1="55" x2="95" y2="55" stroke="url(#v-grad)" stroke-width="8" stroke-linecap="round" />
+    <line x1="75" y1="75" x2="95" y2="75" stroke="url(#v-grad)" stroke-width="8" stroke-linecap="round" />
+
+    <!-- Circuit Traces -->
+    <path d="M40 70 L 30 80 H 15" stroke="url(#v-grad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="15" cy="80" r="5" fill="url(#v-grad)" />
+
+    <path d="M75 97 H 60 L 50 107 H 35" stroke="url(#v-grad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="60" cy="97" r="4" fill="url(#v-grad)" />
+    <circle cx="35" cy="107" r="5" fill="url(#v-grad)" />
+
+    <!-- Eye Background fill (White) -->
+    <path d="M 5 50 C 5 50, 25 20, 50 20 C 75 20, 90 50, 90 50 C 90 50, 75 80, 50 80 C 25 80, 5 50, 5 50 Z" fill="#ffffff" />
+    
+    <!-- Eye Outline -->
+    <path d="M 5 50 C 5 50, 25 20, 50 20 C 75 20, 90 50, 90 50 C 90 50, 75 80, 50 80 C 25 80, 5 50, 5 50 Z" fill="none" stroke="url(#v-grad)" stroke-width="9" stroke-linejoin="round" />
+    
+    <!-- Iris outer (White) -->
+    <circle cx="50" cy="50" r="20" fill="#ffffff" stroke="url(#v-grad)" stroke-width="8" />
+    
+    <!-- Pupil / Inner eye -->
+    <circle cx="50" cy="50" r="10" fill="url(#v-grad)" />
+    <circle cx="53" cy="46" r="3" fill="#ffffff" />
+  </g>
+</svg>

@@ -1,0 +1,71 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Temporary files & frames
+frames/
+uploads/
+scratch_frames/
+.venv/
+/tmp/
+temp/
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.webm
+
+# Database & Cache
+*.sqlite3
+*.db
+chroma_data/
+redis_data/
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/build/
+.npm
+.eslintcache
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
